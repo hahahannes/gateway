@@ -1,9 +1,7 @@
-# Logs, Databases, visual studio code
 *.log
 *.sqlite
 logging.conf
 .idea/
-connector.conf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -15,6 +13,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
+=======
+env/
+>>>>>>> 58737757dd01714e7840a0906aa8b7a3cb5b2e23
 build/
 develop-eggs/
 dist/
@@ -30,7 +32,10 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+<<<<<<< HEAD
 MANIFEST
+=======
+>>>>>>> 58737757dd01714e7840a0906aa8b7a3cb5b2e23
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -59,8 +64,11 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< HEAD
 .static_storage/
 .media/
+=======
+>>>>>>> 58737757dd01714e7840a0906aa8b7a3cb5b2e23
 local_settings.py
 
 # Flask stuff:
@@ -88,6 +96,7 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
+<<<<<<< HEAD
 # Environments
 .env
 .venv
@@ -96,6 +105,15 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+=======
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+>>>>>>> 58737757dd01714e7840a0906aa8b7a3cb5b2e23
 
 # Spyder project settings
 .spyderproject
